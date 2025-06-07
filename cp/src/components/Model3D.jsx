@@ -143,7 +143,7 @@ export default function Model3D() {
           camera={{ position: [5, 2, 5], fov: 45 }}
           gl={{ outputColorSpace: SRGBColorSpace }}
         >
-          <ambientLight intensity={2.5} />
+          <ambientLight intensity={5.5} />
           <directionalLight
             position={[3, 15, 7]}
             intensity={7.5}
