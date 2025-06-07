@@ -91,7 +91,7 @@ function MovingLights() {
     <>
       <pointLight
         ref={pointLightRef}
-        intensity={5}
+        intensity={7}
         distance={10}
         color="#00aaff"
         castShadow
@@ -100,7 +100,7 @@ function MovingLights() {
       />
       <spotLight
         ref={spotLightRef}
-        intensity={3.5}
+        intensity={5.5}
         angle={0.3}
         penumbra={0.5}
         position={[0, 6, 2]}
